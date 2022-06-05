@@ -1,0 +1,121 @@
+    1  ip a
+    2  ip a
+    3  echo Prueba > Prueba.txt
+    4  ls
+    6  exit
+    7  ip a
+    8  ping 8.8.8.8
+    9  ping 192.168.50.129
+   11  ping 8.8.8.8
+   12  ping 192.168.50.129
+   13  ip a
+   15  ping 8.8.8.8
+   16  ping 192.168.50.129
+   17  ip a
+   18  ping 192.168.1.46
+   19  ls
+   21  yum install openssh-server
+   22  yum install http
+   23  yum install httpd
+   25  ip a
+   27  ip a
+   29  ping 8.8.8.8
+   31  ping 8.8.8.8
+   32  ip a
+   34  ip a
+   36  ip a
+   38  /etc/init.d/networking restart
+   40  ls
+   41  rm Prueba.txt
+   42  ls
+   44  ls
+   45  cd..
+   46  cd .
+   47  cd ..
+   49  /etc/init.d/networking restart
+   50  cd ..
+   52  /etc/init.d/networking restart
+   54  ls
+   55  cd bin
+   56  ls
+   58  cd..
+   59  cd ..
+   61  /init.d/networking restart
+   63  exit
+   65  Hola > Prueba.txt
+   66  echo Hola > Prueba.txt
+   68  ls
+   70  exit
+   71  history
+   73  ip a
+   74  history
+   75  history > Alumno-Servidor.txt
+   76  vi Alumno-Servidor.txt
+   78  systemctl status ssh
+   79  systemctl status httpd
+   80  systemctl list-units --type service
+   81  systemctl status ssh.service
+   82  systemctl status sshd
+   83  systemctl list-units --type service
+   84  systemctl status network
+   85  systemctl restart network
+   86  systemctl enabled network
+   87  systemctl enable network
+   88  systemctl status network
+   90  iptables -S
+   91  firewall-cmd -permanente --add-port=22/tcp
+   92  firewall-cmd -reload --add-port=22/tcp
+   94  ufw allow 22/tcp
+   96  ip a
+   97  firewall-cmd -zone = public -permanent -add-port = 24/tcp
+   98  firewall-cmd-zone = public -permanent -add-port = 24/tcp
+   99  firewall-cmd -reload
+  100  firewall -cmd -reload
+  102  vi etc/apache2/ports
+  104  vi etc/apache2/port
+  106  /etc/httpd/conf/httpd.conf
+  107  sudo /etc/httpd/conf/httpd.conf
+  108  vi /etc/httpd/conf/httpd.conf
+  110  systemctl restart apache2
+  111  systemctl restart httpd
+  112  systemctl restart httpd.service
+  113  systemctl restart http
+  114  systemctl restart httpd
+  116  netstat -tlpn | grep httpd
+  117  systemctl status httpd
+  118  ss -tlpn | grep httpd
+  119  systemctl start httpd
+  120  systemctl enable httpd
+  121  ss -tlpn | grep httpd
+  122  systemctl status httpd
+  123  systemctl enabled httpd
+  124  systemctl enable httpd
+  126  service htppd restart
+  127  service httpd restart
+  128  service httpd start
+  129  systemctl list-units --type service
+  130  service httpd start
+  131  apachectl configtest
+  132  install netsat
+  133  install netstat
+  135  yum install netstat
+  136  vi /etc/selinux/config
+  138  vi /etc/selinux/config
+  139  systemctl start httpd
+  140  vi /etc/selinux/config
+  142  vi /etc/httpd/conf/httpd.conf
+  144  systemctl start httpd
+  145  systemctl status httpd
+  146  yum update
+  147  ls
+  148  ip a
+  149  history
+  150  exit
+  151  history
+  152  exit
+  153  history
+  155  history
+  157  firewall-cmd -permanente --add-port=22/tcp
+  159  iptables
+  161  ls
+  162  exit

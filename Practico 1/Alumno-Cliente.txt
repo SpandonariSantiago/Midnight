@@ -1,0 +1,53 @@
+    1  clear
+    2  sudo wget http://192.168.50.129
+    3  ping 8.8.8.8
+    4  sudo wget http://192.168.50.129
+    5  sudo wget http://192.168.50.129:24
+    6  sudo wget http://192.168.50.129
+    8  ping 8.8.8.8
+    9  ping 192.168.50.129
+   10  ping 192.168.1.46
+   11  ping 8.
+   12  ping 8.8.8.8
+   13  ping 192.168.1.46
+   15  ping 192.168.50.129
+   16  sudo wget http://192.168.50.129
+   17  sudo wget http://192.168.1.46
+   18  sudo wget http://ip-server
+   19  sdf
+   20  sudo wget http://ip-servidor
+   22  sudo wget http://ip-servidor
+   24  sudo wget http://192.168.50.129
+   25  ssh su-usuario@ip-servidor
+   26  ssh su-usuario@192.168.50.129
+   27  ssh su-root@192.168.50.129
+   28  ssh root@192.168.50.129
+   30  ip a
+   31  ping 8.8.8.8
+   32  wget http://192.168.1.48
+   33  ssh root@192.168.1.48
+   35  wget http://192.168.1.48
+   36  curl 
+   37  sudo apt install curl
+   39  curl localhost -vN
+   40  curl localhost -vL
+   41  netstat -l
+   42  sudo apt Install net-tools
+   43  sudo apt install net-tools
+   44  netstat -l
+   45  netstat -lt
+   46  netstat -ltn
+   48  systemctl status apache2
+   49  curl 192.168.1.48
+   50  wget http://192.168.1.48
+   51  wget http://192.168.1.48/
+   53  wget --user-agent="Mozilla"
+   54  wget --user-agent="Mozilla" 192.168.1.48
+   55  wget -U "Mozilla/5.0" $192.168.1.48
+   56  wget -U "Mozilla/5.0" 192.168.1.48
+   58  wget -U "Mozilla/5.0" 192.168.1.48
+   59  wget http://192.168.1.48
+   60  wget -U "Mozilla/5.0" 192.168.1.48
+   61  wget http://192.168.1.48
+   63  history
+   65  ssh root@192.168.1.48
